@@ -36,8 +36,9 @@ terraform init
 
 ## usage_operation
 
-To import the module add the following to the environment main.tf file:
+Please clone this repo "https://github.com/ajaydevassy/assignments.git"
 
+To import the module add the following to the environment main.tf file:
 
 You can override the value with terraform.tfvars or variable.tf files
 
@@ -45,7 +46,7 @@ Below mentioned .var are required**
 
 ```bash
 module "vpc" {
-  source = "./Devops-assignment1"
+  source = "/Devops-assignment1"
 
   region = var.region
   vpc_cidr_block = var.vpc_cidr_block
@@ -63,7 +64,7 @@ module "vpc" {
 
 ```bash
 module "vpc" {
-  source = "../Devops-assignment1/"
+  source = "/Devops-assignment1/"
 
   cidr-private = ["10.0.13.0/24", "10.0.14.0/24"]
   bucket = "test-backend-dev"
