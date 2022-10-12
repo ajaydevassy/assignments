@@ -24,7 +24,7 @@ Infrastructure Automation Using Terraform
 
 * Route53 record set
 
-Please make sure to set up appropriate aws environment variables to have the required access to the account in your AWS shared credentials file.
+Please make sure to set up appropriate aws environment variables  in your AWS shared credentials file.
 
 #### common root module
  
