@@ -9,7 +9,7 @@ This will give you details about all region and available services in a dictiona
 python3 service-collection.py
 
 ```
-# Available regions and Services we can be extract from the dictionary to list accordingly
+Available regions and Services we can be extract from the dictionary to list accordingly
 eg :
 
 ```bash
