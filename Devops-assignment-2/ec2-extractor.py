@@ -1,7 +1,7 @@
 import boto3
 import csv
 from pprint import pprint
-ec2_cli=boto3.client(service_name='iam')
+ec2_cli=boto3.client(service_name='ec2')
 
 collect_all_regions=[]
 for each_region in ec2_cli.describe_regions()['Regions']: 
